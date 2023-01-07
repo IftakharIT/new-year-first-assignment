@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: tahoma;
+}
+header {
+  width: 100%;
+  height: 700px;
+  background-image: url("./banner/banner1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.header-contain {
+  width: 500px;
+  text-align: end;
+  margin-right: 100px;
+}
+.header-contain h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.header-contain p {
+  font-size: 18px;
+  color: rgb(155, 154, 154);
+  margin-bottom: 20px;
+}
+.header-contain button {
+  color: white;
+  font-size: 18px;
+  padding: 15px 20px;
+  background-color: #f15b22;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.failure {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+.failure1 {
+  padding-left: 150px;
+}
+.failure1 img {
+  width: 400px;
+  height: 500px;
+}
+.failure2 {
+  padding: 150px;
+}
+.failure2 h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.failure2 p {
+  font-size: 16px;
+  color: rgb(155, 154, 154);
+  padding-bottom: 5px;
+}
+.failure2 ul {
+  margin-top: 20px;
+}
+.failure2 ul li {
+  list-style: none;
+}
+.myplans {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.myplans h1 {
+  margin-bottom: 50px;
+}
+.plans {
+  display: flex;
+  flex-direction: row;
+}
+.plan {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.plan img {
+  width: 50px;
+  height: 50px;
+}
+.plan h2 {
+  font-size: 18px;
+}
+.bannar {
+  width: 100%;
+  height: 300px;
+  background-image: url("./banner/watch.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.bannar h1 {
+  color: white;
+  font-size: 40px;
+  margin-left: 50px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+.bannar button {
+  margin-left: 50px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #f15b22;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.left {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.left h1 {
+  margin-bottom: 20px;
+}
+.left p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.left span {
+  margin-bottom: 20px;
+}
+.icon {
+  margin-top: 20px;
+}
+.right {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.right input {
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #f15b22;
+}
